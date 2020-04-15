@@ -3,7 +3,7 @@ A surveying web application built to gather feedback from your clients!
 
 
 # ENVIRONMENT
--I have made a separate client-side and server-side in order to apply decoupling. 
+-I have made a separate client-side and server-side
 
 -Created a development & production environment 
 The following scripts are from the server -> inside package.json 
