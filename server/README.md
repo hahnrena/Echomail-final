@@ -54,6 +54,7 @@ Sending Surveys
 
 -Users can send surveys to their clients and view the sent surveys on their Dashboard
 
+
 <img width="685" alt="Screen Shot 2020-04-14 at 9 18 05 PM" src="https://user-images.githubusercontent.com/62117964/79288713-7b2d1380-7e95-11ea-96b9-553083f45d02.png">
 
 <img width="715" alt="Screen Shot 2020-04-14 at 9 16 28 PM" src="https://user-images.githubusercontent.com/62117964/79288629-415c0d00-7e95-11ea-902f-a9df2461e498.png">
