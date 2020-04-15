@@ -1,5 +1,6 @@
 # ECHOMAIL 
-Surveying web application built to gather feedback from your clients! 
+A surveying web application built to gather feedback from your clients! 
+
 
 # ENVIRONMENT
 -I have made a separate client-side and server-side in order to apply decoupling. 
@@ -9,8 +10,13 @@ The following scripts are from the server -> inside package.json
 
 <img width="874" alt="Screen Shot 2020-04-14 at 9 26 38 PM" src="https://user-images.githubusercontent.com/62117964/79289205-acf2aa00-7e96-11ea-8205-2b7a4e93191d.png">
 
+Proxy coding for the development environment so the server can forward it from localhost:3000 -> localhost:5000
+
+<img width="632" alt="Screen Shot 2020-04-15 at 7 30 23 AM" src="https://user-images.githubusercontent.com/62117964/79332575-11d7ef80-7eeb-11ea-8080-05198fe92395.png">
+
 -cd into the server & run "npm run dev"
 -if there are issues, cd into the client & run "npm start" 
+
 
 # Ensure version numbers are the same
 
@@ -38,6 +44,7 @@ OAuth Flow
 These are the passport-GoogleOAuth coding:
 
 <img width="630" alt="Screen Shot 2020-04-14 at 9 09 25 PM" src="https://user-images.githubusercontent.com/62117964/79288413-a95e2380-7e94-11ea-8542-08b4b2530295.png">
+
 
 These are the auth routes/RESTful API endpoints in Express for user authentification in the back end server:
 
