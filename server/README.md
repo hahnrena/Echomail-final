@@ -30,6 +30,10 @@ User Authentification
 -Logged in users can access creating a survey, sending a survey, adding credits, and viewing their Dashboard of surveys
 -Once a user sends a survey, they get redirected to the main dashboard and can view their 'sent' surveys
 
+OAuth Flow
+
+These are the passport-GoogleOAuth coding:
+
 <img width="630" alt="Screen Shot 2020-04-14 at 9 09 25 PM" src="https://user-images.githubusercontent.com/62117964/79288413-a95e2380-7e94-11ea-8542-08b4b2530295.png">
 
 These are the auth routes/RESTful API endpoints in Express for authentification in the back end server:
