@@ -6,12 +6,8 @@ Surveying web application built to gather feedback from your clients!
 -Created a development & production environment 
 The following scripts are from the server folder->package.json 
 
-"scripts": {
-    "start": "node index.js",
-    "server": "nodemon index.js",
-    "client": "npm run start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+<img width="841" alt="Screen Shot 2020-04-14 at 9 25 46 PM" src="https://user-images.githubusercontent.com/62117964/79289150-8b91be00-7e96-11ea-8a4b-82fa6182df65.png">
+
 -cd into the server & run "npm run dev"
 -if there are issues, cd into the client & run "npm start" 
 
