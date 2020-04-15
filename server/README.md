@@ -24,7 +24,7 @@ The following scripts are from the server folder->package.json
 User Authentification
 
 -Users can sign up or log in with a Google Account
--Invalid login or signup attempts would invoke front-end and back-end errors.
+-Invalid login would invoke an error in the front-end & back-end
 
 -Logged in users can access creating a survey, sending a survey, adding credits, and viewing their Dashboard of surveys
 -Once a user sends a survey, they get redirected to the main dashboard and can view their 'sent' surveys
