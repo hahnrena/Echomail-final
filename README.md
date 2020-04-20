@@ -16,6 +16,7 @@ Proxy coding for the development environment so the server can forward it from l
 <img width="632" alt="Screen Shot 2020-04-15 at 7 30 23 AM" src="https://user-images.githubusercontent.com/62117964/79332575-11d7ef80-7eeb-11ea-8080-05198fe92395.png">
 
 -cd into the server & run "npm run dev"
+
 -if there are issues, cd into the client & run "npm start" 
 
 
@@ -27,6 +28,7 @@ Proxy coding for the development environment so the server can forward it from l
 <img width="316" alt="Screen Shot 2020-04-14 at 9 14 48 PM" src="https://user-images.githubusercontent.com/62117964/79288539-022dbc00-7e95-11ea-9fb8-a0b93ab987ce.png">
 
 -materialize-css is a front-end framework I have used to design my interface 
+
 -npm install --save materialize-css@next
 
 
@@ -35,14 +37,17 @@ Proxy coding for the development environment so the server can forward it from l
 User Authentification
 
 -Users can sign up or log in with a Google Account
+
 -Invalid login would invoke an error in the front-end & back-end
 
 -Logged in users can access creating a survey, sending a survey, adding credits, and viewing their Dashboard of surveys
+
 -Once a user sends a survey, they get redirected to the main dashboard and can view their 'sent' surveys
 
 OAuth Flow
 
 These are the passport-GoogleOAuth coding:
+
 -Once a user gets verified by Google, the user gets registered in the MongoDB database.
 
 <img width="630" alt="Screen Shot 2020-04-14 at 9 09 25 PM" src="https://user-images.githubusercontent.com/62117964/79288413-a95e2380-7e94-11ea-8542-08b4b2530295.png">
@@ -55,11 +60,12 @@ These are the auth routes/RESTful API endpoints in Express for user authentifica
 Survey Form
 
 -Users can manually type their survey questions 
+
 -formFields is an import statement from a separate file that contains the respective fields the user can input for their survey title, subject, body, & recipients.
 
 <img width="773" alt="Screen Shot 2020-04-14 at 9 20 39 PM" src="https://user-images.githubusercontent.com/62117964/79288862-e1b23180-7e95-11ea-88df-3edcc59260e1.png">
 
--Users can review them before they can send it to their clients'(recipients') emails
+-Users can review them before they can send it to their clients' (recipients') emails
 
 <img width="816" alt="Screen Shot 2020-04-14 at 9 20 58 PM" src="https://user-images.githubusercontent.com/62117964/79288897-f55d9800-7e95-11ea-8809-bb20abf6f1f7.png">
 
@@ -67,7 +73,8 @@ Survey Form
 Sending Surveys
 
 -Users can send surveys to their clients and view the collection of sent surveys on their Dashboard
--Users can viewhow many of their clients responded 'Yes' or 'No' to their service and when the user sent the survey
+
+-Users can view how many of their clients responded 'Yes' or 'No' to their service and when the user sent the survey
 
 
 <img width="685" alt="Screen Shot 2020-04-14 at 9 18 05 PM" src="https://user-images.githubusercontent.com/62117964/79288713-7b2d1380-7e95-11ea-96b9-553083f45d02.png">
