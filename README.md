@@ -43,6 +43,7 @@ User Authentification
 OAuth Flow
 
 These are the passport-GoogleOAuth coding:
+-Once a user gets verified by Google, the user gets registered in the MongoDB database.
 
 <img width="630" alt="Screen Shot 2020-04-14 at 9 09 25 PM" src="https://user-images.githubusercontent.com/62117964/79288413-a95e2380-7e94-11ea-8542-08b4b2530295.png">
 
@@ -53,10 +54,12 @@ These are the auth routes/RESTful API endpoints in Express for user authentifica
 
 Survey Form
 
--Users can manually type their survey questions into their respective fields and review them before they can send it to their clients' emails
+-Users can manually type their survey questions 
+-formFields is an import statement from a separate file that contains the respective fields the user can input for their survey title, subject, body, & recipients.
 
 <img width="773" alt="Screen Shot 2020-04-14 at 9 20 39 PM" src="https://user-images.githubusercontent.com/62117964/79288862-e1b23180-7e95-11ea-88df-3edcc59260e1.png">
 
+-Users can review them before they can send it to their clients'(recipients') emails
 
 <img width="816" alt="Screen Shot 2020-04-14 at 9 20 58 PM" src="https://user-images.githubusercontent.com/62117964/79288897-f55d9800-7e95-11ea-8809-bb20abf6f1f7.png">
 
@@ -64,7 +67,7 @@ Survey Form
 Sending Surveys
 
 -Users can send surveys to their clients and view the collection of sent surveys on their Dashboard
--Users can see how many of their clients responded 'Yes' or 'No' to their service and when the user sent the survey
+-Users can viewhow many of their clients responded 'Yes' or 'No' to their service and when the user sent the survey
 
 
 <img width="685" alt="Screen Shot 2020-04-14 at 9 18 05 PM" src="https://user-images.githubusercontent.com/62117964/79288713-7b2d1380-7e95-11ea-96b9-553083f45d02.png">
