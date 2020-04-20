@@ -44,6 +44,7 @@ User Authentification
 
 -Once a user sends a survey, they get redirected to the main dashboard and can view their 'sent' surveys
 
+
 OAuth Flow
 
 These are the passport-GoogleOAuth coding:
@@ -56,6 +57,7 @@ These are the passport-GoogleOAuth coding:
 These are the auth routes/RESTful API endpoints in Express for user authentification in the back end server:
 
 <img width="569" alt="Screen Shot 2020-04-14 at 9 39 22 PM" src="https://user-images.githubusercontent.com/62117964/79332159-4f884880-7eea-11ea-8986-b70e7663e577.png">
+
 
 Survey Form
 
