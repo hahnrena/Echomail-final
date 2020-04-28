@@ -15,9 +15,8 @@ Proxy coding for the development environment so the server can forward it from l
 
 <img width="632" alt="Screen Shot 2020-04-15 at 7 30 23 AM" src="https://user-images.githubusercontent.com/62117964/79332575-11d7ef80-7eeb-11ea-8080-05198fe92395.png">
 
--cd into the server & run "npm run dev"
-
--if there are issues, cd into the client & run "npm start" 
+-run npm install in both the server and client directory
+-cd into the server & run "npm run dev" to start the project
 
 
 # Ensure version numbers are the same
